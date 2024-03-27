@@ -3,12 +3,12 @@
 ***                                                                          ***
 ***                                                                          ***
 ***                         Transient Analysis of 3                          ***
-***                           27.03.2024 18:01:16                            ***
+***                           27.03.2024 18:12:17                            ***
 ********************************************************************************
 Limits
 ======
-Time Range               1.1m,1m
-Maximum Time Step        1n
+Time Range               1.2m,1m
+Maximum Time Step        1u
 Number of Points         51
 Temperature              Linear 27
 Retrace Runs             1
