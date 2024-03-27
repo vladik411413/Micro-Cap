@@ -1,0 +1,98 @@
+********************************************************************************
+***                       Micro-Cap 11.0.1.9 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                    Transient Analysis of stabilizator                    ***
+***                           21.03.2024 11:08:28                            ***
+********************************************************************************
+Limits
+======
+Time Range               10m
+Maximum Time Step        10u
+Number of Points         51
+Temperature              Linear 27
+Retrace Runs             1
+Run Options              Normal
+State Variables          Zero
+Operating Point          On
+Operating Point Only     Off
+Auto Scale Ranges        Off
+Accumulate Plots         Off
+Fixed Time Step          Off
+Periodic Steady State    Off
+Ignore Expression Errors Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1            16.000   2            10.000  
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:               D1
+Using model:        1N4740
+
+Capacitance Terms:
+CAP                24.375p
+
+Current Terms:
+ID                -25.000m
+
+Resistance Terms:
+REQ                 1.035 
+
+Voltage Terms:
+VD                -10.000 
+
+Power DC Terms:
+PD                249.999m
+PS                  0.000 
+
+DC Pin Currents:
+Id                -25.000m
+
+Condition:
+State                ZENER
+
+Device Variables:
+area                1.000 
+ic                  0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:             V1.RS            R1            R2
+V                  -30.000u        6.000        10.000 
+Power DC Terms:
+PD                 899.991n      179.998m       50.000m
+
+DC Pin Currents:
+Ir                 -30.000m       30.000m        5.000m
+
+Device Variables:
+tc1                  0.000         0.000         0.000 
+tc2                  0.000         0.000         0.000 
+
+
+
+Operating Point for Devices of Type Sine Source
+===============================================
+Instance:                V1
+Using model:           60HZ
+V                   16.000 
+Power DC Terms:
+PG                 479.998m
+
+DC Pin Currents:
+ISource            -30.000m
+
+

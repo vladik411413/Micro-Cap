@@ -1,0 +1,113 @@
+********************************************************************************
+***                       Micro-Cap 11.0.1.9 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                     Transient Analysis of rectifier                      ***
+***                           14.03.2024 10:52:39                            ***
+********************************************************************************
+Limits
+======
+Time Range               10m,9m
+Maximum Time Step        1u
+Number of Points         51
+Temperature              Linear 27
+Retrace Runs             1
+Run Options              Normal
+State Variables          Zero
+Operating Point          On
+Operating Point Only     Off
+Auto Scale Ranges        Off
+Accumulate Plots         Off
+Fixed Time Step          Off
+Periodic Steady State    Off
+Ignore Expression Errors Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1         8.846E-038  2         1.504E-019  3         1.504E-019 
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:                D1             D3
+Using model:         1N4001         1N4001
+
+Capacitance Terms:
+CAP                 48.031p        48.031p
+
+Current Terms:
+ID              -1.503E-026     1.503E-026
+
+Resistance Terms:
+REQ                5.558MEG       5.558MEG
+
+Voltage Terms:
+VD              -1.504E-019     1.504E-019
+
+Power DC Terms:
+PD               2.260E-045     2.260E-045
+PS                   0.000          0.000 
+
+DC Pin Currents:
+Id              -1.503E-026     1.503E-026
+
+Condition:
+State                   OFF            OFF
+
+Device Variables:
+area                 1.000          1.000 
+ic                   0.000          0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                 R1          V1.RS
+V                -6.785E-025    -8.846E-038
+Power DC Terms:
+PD                4.604E-052     7.824E-072
+
+DC Pin Currents:
+Ir               -6.785E-028    -8.846E-035
+
+Device Variables:
+tc1                   0.000          0.000 
+tc2                   0.000          0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                 C1             C2
+V                 1.504E-019    -1.504E-019
+Power DC Terms:
+PS                    0.000          0.000 
+
+DC Pin Currents:
+Ic                    0.000          0.000 
+
+Device Variables:
+ic                    0.000          0.000 
+
+
+
+Operating Point for Devices of Type Sine Source
+===============================================
+Instance:                 V1
+Using model:            60HZ
+V                -8.846E-038
+Power DC Terms:
+PG                    0.000 
+
+DC Pin Currents:
+ISource          -8.846E-035
+
+

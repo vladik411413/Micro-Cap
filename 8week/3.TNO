@@ -1,0 +1,113 @@
+********************************************************************************
+***                       Micro-Cap 11.0.1.9 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                         Transient Analysis of 3                          ***
+***                           27.03.2024 18:01:16                            ***
+********************************************************************************
+Limits
+======
+Time Range               1.1m,1m
+Maximum Time Step        1n
+Number of Points         51
+Temperature              Linear 27
+Retrace Runs             1
+Run Options              Normal
+State Variables          Zero
+Operating Point          On
+Operating Point Only     Off
+Auto Scale Ranges        Off
+Accumulate Plots         Off
+Fixed Time Step          Off
+Periodic Steady State    Off
+Ignore Expression Errors Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1        -1.587E-028  2         7.936E-022  3             0.000  
+
+
+Operating Point for Devices of Type Diode
+=========================================
+Instance:                D1
+Using model:         1N4148
+
+Capacitance Terms:
+CAP                  1.338p
+
+Current Terms:
+ID              -2.262E-031
+
+Resistance Terms:
+REQ                6.999MEG
+
+Voltage Terms:
+VD              -7.936E-022
+
+Power DC Terms:
+PD               1.795E-052
+PS                   0.000 
+
+DC Pin Currents:
+Id              -2.262E-031
+
+Condition:
+State                   OFF
+
+Device Variables:
+area                 1.000 
+ic                   0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:              V1.RS             R1             R2
+V                -1.587E-028         0.000      7.936E-022
+Power DC Terms:
+PD                2.520E-053         0.000      1.260E-046
+
+DC Pin Currents:
+Ir               -1.587E-025         0.000      1.587E-025
+
+Device Variables:
+tc1                   0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                 C1
+V                 7.936E-022
+Power DC Terms:
+PS                    0.000 
+
+DC Pin Currents:
+Ic                    0.000 
+
+Device Variables:
+ic                    0.000 
+
+
+
+Operating Point for Devices of Type Sine Source
+===============================================
+Instance:                 V1
+Using model:         GENERAL
+V                -1.587E-028
+Power DC Terms:
+PG                    0.000 
+
+DC Pin Currents:
+ISource          -1.587E-025
+
+
